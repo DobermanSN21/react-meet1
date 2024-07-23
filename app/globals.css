@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Gaya kustom untuk tombol */
+.btn {
+  @apply px-4 py-2 rounded text-white font-semibold;
+}
+.btn-like {
+  @apply bg-blue-500 hover:bg-green-600 disabled:bg-blue-300;
+}
+.btn-dislike {
+  @apply bg-red-500 hover:bg-red-600 disabled:bg-red-300;
+}
+.btn-reset {
+  @apply bg-gray-500 hover:bg-gray-600 disabled:bg-gray-300;
+}
